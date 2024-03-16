@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import RouterComponent from './router';
+import Navbar from './navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Ali</h1>
+    {/* <Navbar/> */}
+    <RouterComponent/>
   </React.StrictMode>
 );
 
